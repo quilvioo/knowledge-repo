@@ -41,6 +41,19 @@ The first thing to understand about Vim is its different modes.
 	* Starting with your cursor placement, whatever you type will replace
 	  existing text
 
+## Text Editing
+
+> To being, I'll organize this the same way as `vimtutor` and rewrite it in a more cohesive manner afterwards
+
+| Command     | Description |
+| ----------- | ----------- |
+| j | move cursor down one line         |
+| k | move cursor up one line                |
+| h | move cursor to the left one character  |
+| l | move cursor to the right one character |
+
+The j, k, h, l keys act much like like the arrow keys typically do on a keyboard.
+
 ## Resources Used
 
 * [vimtutor](https://linux.die.net/man/1/vimtutor)
