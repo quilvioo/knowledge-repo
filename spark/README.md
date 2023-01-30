@@ -2,7 +2,7 @@
 
 ## What is Spark?
 
-The official [https://spark.apache.org/](Apache Spark) site greets you with
+The official [Apache Spark](https://spark.apache.org/) site greets you with
 
 > Apache Spark is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters.
 
