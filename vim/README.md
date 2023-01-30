@@ -54,6 +54,10 @@ The first thing to understand about Vim is its different modes.
 
 The j, k, h, l keys act much like like the arrow keys typically do on a keyboard.
 
+* `x` deletes the character under the cursor
+* `a` will enter "Insesrt mode" starting after the cursor
+* `A` will enter "Insert mode" at the end of the current line
+
 ## Resources Used
 
 * [vimtutor](https://linux.die.net/man/1/vimtutor)
