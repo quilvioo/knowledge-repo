@@ -26,8 +26,12 @@ if __name__ == "__main__":
 
     # filter down to necessary columns
     pokemon_no_and_type = pokemon_df.select("#", "Type 1")
+
+    # find Pokemon type counts and display in descending order
     count_pokemon_type = (
         pokemon_no_and_type.groupBy("Type 1").count().orderBy(desc("count"))
     )
+
+    # display the results
     count_pokemon_type.show(truncate=False)
     print(f"Total Rows = {count_pokemon_type.count()}")
